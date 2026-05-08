@@ -788,6 +788,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .social-icons a {
