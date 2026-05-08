@@ -436,6 +436,12 @@ body {
     margin-bottom: 1rem;
 }
 
+        .branch-card {
+            background: linear-gradient(135deg, #111, #000);
+            padding: 30px; border-radius: 20px; border-left: 5px solid var(--main-orange);
+        }
+
+
 .ps5-section p {
     font-size: 1.125rem;
     color: #374151;
