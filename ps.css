@@ -1,5 +1,6 @@
 :root {
     --ps-blue: #0070d1;
+    --main-orange: #f28f3b;
     --ps-blue-dark: #003087;
     --ps-gray: #f5f5f5;
     --ps-gray-dark: #1f1f1f;
@@ -440,6 +441,9 @@ body {
             background: linear-gradient(135deg, #111, #000);
             padding: 30px; border-radius: 20px; border-left: 5px solid var(--main-orange);
         }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .section { padding: 80px 5%; text-align: center; }
+
 
 
 .ps5-section p {
